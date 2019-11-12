@@ -1,0 +1,10 @@
+import cartopy
+import xlrd
+import pandas
+import chardet
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+import matplotlib.pyplot as plt
+
+from ensae_teaching_cs.data import deal_flow_espace_vert_2018_2019
+filenames = deal_flow_espace_vert_2018_2019()
